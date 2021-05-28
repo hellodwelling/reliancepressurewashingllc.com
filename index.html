@@ -14,6 +14,7 @@
     
     <script src="https://prophone.herokuapp.com/staticfiles/landing_page_gen/render.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4f07488cb7.js" crossorigin="anonymous"></script>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
     
     <meta content="https://landing-page-app-hero-images.s3.amazonaws.com/media/CV2DLQSA28B05RCR60QJBGA8SM24NPR5KE1TW3XZ.png" property="og:image">
@@ -27,7 +28,7 @@
     
     
 
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
 
       <title>Reliance Pressure Washing - Exceptional, Professional Cleaning Service. As a Customer you are Family </title>
 
@@ -278,6 +279,7 @@
                                  
                            
                   
+
                </div>
             
             
@@ -391,7 +393,8 @@
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
                 <h1 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Our Best Work</h1>
                 <h2 class="my-3 mb-10 text-xl font-medium text-black-500 text-center">See why our customers love us</h2>
-                <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row">
+                <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false }" @keydown.escape= "open = false">
+
                 
                     
                     
@@ -411,92 +414,92 @@
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/P1HJW8I95S9YZZBJJ0O1LYT2FXIT60A2KH5X1SI7.jpeg"  alt = "Photo number 4 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/P1HJW8I95S9YZZBJJ0O1LYT2FXIT60A2KH5X1SI7.jpeg"  alt = "Photo number 4 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/JCSRDV1NJZC5EFBF5E640WOJKN6GISH3QBRRRSJO.jpeg"  alt = "Photo number 5 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/JCSRDV1NJZC5EFBF5E640WOJKN6GISH3QBRRRSJO.jpeg"  alt = "Photo number 5 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/HMZEO1QCK99WORSFU48BXYP9DWGVS523NTW21TAC.jpeg"  alt = "Photo number 6 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/HMZEO1QCK99WORSFU48BXYP9DWGVS523NTW21TAC.jpeg"  alt = "Photo number 6 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8WBP5AWLRY6E00HOJUR0N9C59QTHKJ368LMUU3PO.jpeg"  alt = "Photo number 7 of Reliance Pressure Washing&#x27;s best work performing a Fence Washing job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8WBP5AWLRY6E00HOJUR0N9C59QTHKJ368LMUU3PO.jpeg"  alt = "Photo number 7 of Reliance Pressure Washing&#x27;s best work performing a Fence Washing job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/V7Y2TY6W8EOL1ZRRBOB0SIA5GDQKGR0CTI7LNVFH.jpeg"  alt = "Photo number 8 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/V7Y2TY6W8EOL1ZRRBOB0SIA5GDQKGR0CTI7LNVFH.jpeg"  alt = "Photo number 8 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2PANRZ0DNST5R12V2C16VVW4NGEVWVIKMN3DO623.jpeg"  alt = "Photo number 9 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2PANRZ0DNST5R12V2C16VVW4NGEVWVIKMN3DO623.jpeg"  alt = "Photo number 9 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/XX56YQJ95PAAJ6L0JNYWMLMBV3EO3VFO9JVH2U2O.jpeg"  alt = "Photo number 10 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/XX56YQJ95PAAJ6L0JNYWMLMBV3EO3VFO9JVH2U2O.jpeg"  alt = "Photo number 10 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/GUF803IRVYODK7AMGFJ8S220OKI1R7YOXSSTJ52U.jpeg"  alt = "Photo number 11 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/GUF803IRVYODK7AMGFJ8S220OKI1R7YOXSSTJ52U.jpeg"  alt = "Photo number 11 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/849GJ16VT52R6SRETIKPRMAMN299T16F3U0N6QXK.jpeg"  alt = "Photo number 12 of Reliance Pressure Washing&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/849GJ16VT52R6SRETIKPRMAMN299T16F3U0N6QXK.jpeg"  alt = "Photo number 12 of Reliance Pressure Washing&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/CRJ1GFLJCFNFMIA3FEIUJ16RG3B6BL532QDLAV3L.jpeg"  alt = "Photo number 13 of Reliance Pressure Washing&#x27;s best work performing a Roof Cleaning job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/CRJ1GFLJCFNFMIA3FEIUJ16RG3B6BL532QDLAV3L.jpeg"  alt = "Photo number 13 of Reliance Pressure Washing&#x27;s best work performing a Roof Cleaning job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5JFWON8X5PFO0M8FT95FTRGC5FGZCIOXEIE7BZOE.jpeg"  alt = "Photo number 14 of Reliance Pressure Washing&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5JFWON8X5PFO0M8FT95FTRGC5FGZCIOXEIE7BZOE.jpeg"  alt = "Photo number 14 of Reliance Pressure Washing&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ULU3F4F24IHHP4MTVDKGUMRVQL6QUGAHHC0SKBA0.jpeg"  alt = "Photo number 15 of Reliance Pressure Washing&#x27;s best work performing a Decks &amp; Patios job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ULU3F4F24IHHP4MTVDKGUMRVQL6QUGAHHC0SKBA0.jpeg"  alt = "Photo number 15 of Reliance Pressure Washing&#x27;s best work performing a Decks &amp; Patios job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/60SUDUQOG15GXSQFV62KF7FPYFD77T4EECP9KEZQ.jpeg"  alt = "Photo number 16 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/60SUDUQOG15GXSQFV62KF7FPYFD77T4EECP9KEZQ.jpeg"  alt = "Photo number 16 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/QPAEKYJ4P47AAE5XYSX271YUXS8A99UMLTJBSY1U.jpeg"  alt = "Photo number 17 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/QPAEKYJ4P47AAE5XYSX271YUXS8A99UMLTJBSY1U.jpeg"  alt = "Photo number 17 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/IMCP0SMO12BRHTGDHX4B8OF082MTMV42LE6NWZ2O.jpeg"  alt = "Photo number 18 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/IMCP0SMO12BRHTGDHX4B8OF082MTMV42LE6NWZ2O.jpeg"  alt = "Photo number 18 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/WL1HSMAY7MVE6J1EA7WPI74KHJ2TEKJ0V6JQ3HY1.jpeg"  alt = "Photo number 19 of Reliance Pressure Washing&#x27;s best work performing a Hardscape &amp; Deck Cleaning job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/WL1HSMAY7MVE6J1EA7WPI74KHJ2TEKJ0V6JQ3HY1.jpeg"  alt = "Photo number 19 of Reliance Pressure Washing&#x27;s best work performing a Hardscape &amp; Deck Cleaning job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZSZDTX66PAUR2M5H87OALQH9E4I5JZ2CCTVS4D2K.jpeg"  alt = "Photo number 20 of Reliance Pressure Washing&#x27;s best work performing a Fence Washing job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZSZDTX66PAUR2M5H87OALQH9E4I5JZ2CCTVS4D2K.jpeg"  alt = "Photo number 20 of Reliance Pressure Washing&#x27;s best work performing a Fence Washing job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/P98U1UHDS9BQF5QOELGHB17HEJLFRAGMRY1NPUMK.jpeg"  alt = "Photo number 21 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/P98U1UHDS9BQF5QOELGHB17HEJLFRAGMRY1NPUMK.jpeg"  alt = "Photo number 21 of Reliance Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                  
                 </div>     
@@ -567,8 +570,8 @@
 <section id= "faqs" class="py-16   bg-black text-white  md:py-20 lg:py-24">
     <div class="max-w-5xl px-12 mx-auto xl:px-0">
 
-        <h1 class="text-3xl  font-bold md:text-4xl lg:text-6xl xl:text-7xl text-center ">Faqs</h1>
-        <h2 class="mt-4 text-xl font-thin  lg:text-2xl text-center lg:text-left">Your questions answered</h2>
+        <h1 class="mb-5 text-3xl  mx-auto text-center font-extrabold leading-none sm:text-4xl lg:text-7xl">Faqs</h1>
+         <h2 class="my-3 mb-10  text-xl font-medium text-black-500 text-center">Your questions answered</h2>
 
         <div class="relative mt-12 space-y-3">
 
